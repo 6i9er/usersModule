@@ -1,0 +1,25 @@
+<?php
+
+return array (
+  'adminPannel' => 'Admin Panel',
+  'users' => 'Users',
+  'permissions' => 'Permissions',
+  'clinics' => 'Clinics',
+  'clinicsSetting' => 'Clinics settings',
+  'generalAttributes' => 'General Attributes',
+  'medicines' => 'Medicines',
+  'reservations' => 'Reservations',
+  'allReservation' => 'All Reservations',
+  'newReservation' => 'New Reservation',
+  'patients' => 'Patients',
+  'allPatient' => 'All Patients',
+  'newpatient' => 'New Patient',
+  'doctors' => 'Doctors',
+  'emr' => 'EMR',
+  'hospitals' => 'Hospitals',
+  'hospitalSetting' => 'Hospital Setting',
+  'allUsers' => 'All Users',
+  'homePage' => 'home Page',
+  'settings' => 'Settings',
+  'newPatientHere' => 'New Patient Here',
+);
