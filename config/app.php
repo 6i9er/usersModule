@@ -179,7 +179,7 @@ return [
 
         // my Used Service Provider
         Barryvdh\Debugbar\ServiceProvider::class,
-        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+//        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         'Barryvdh\TranslationManager\ManagerServiceProvider',
     ],
 
@@ -232,8 +232,8 @@ return [
         // my Used Alias
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class,
-        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
-        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+//        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
+//        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
     ],
 
 ];
