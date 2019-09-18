@@ -24,13 +24,13 @@ class Role extends Model
      * @return all accounts order by id ASC
      */
     public static function getAll(){
-        return self::all();
+        return self::with("permissions")->get();
     }
 
 
 
     public static function getAllOrderByIdDesc(){
-        return self::orderBy('id' , "DESC")->with("groupPermission")->get();
+        return self::orderBy('id' , "DESC")->with("permissions")->get();
     }
 
 

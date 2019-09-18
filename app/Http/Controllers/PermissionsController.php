@@ -213,11 +213,12 @@ class PermissionsController extends Controller
 
 //    start Roles Section
     public function getAllRoles(){
+//        return $this->userPermissions;
 //        if(!in_array(Auth::user()->user_type , UsersEnums::$systemIds) && !in_array("listRoles" , $this->userPermissions)){
 //            return view('errors.403');
 //        }
         $groupPermissions = GroupPermission::with(['permissions'])->get();
-        $allRoles = Role::all();
+        $allRoles = Role::getAll();
         return View('roles.index' )->with(["groupPermissions" => $groupPermissions , "roles" => $allRoles]);
     }
 
